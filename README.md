@@ -16,7 +16,7 @@ skock, is quantity of a product one wants to enter. Default value is zero(0).
 
 
 
-There are 8 commands that are used to do various tasks: 
+There are 7 commands that are used to do various tasks: 
 
 #first
 -node commander add
@@ -44,7 +44,7 @@ There are 8 commands that are used to do various tasks:
   
 #seventh
 -node commander unstock <sku> <amount>
--Similar to above, sku number goes in <sku> place(for ex, 4011). Number goes in amount, by which you want to decrease your stock.
+-Similar to above, sku number goes in place of <sku> (for ex, 4011). Number goes in amount, by which you want to decrease your stock.
   
  
  The best way to find if commands are working is to ckeck by using command (#second)-node commander find <sku>, after every operation.
